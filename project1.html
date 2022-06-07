@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta http-equiv="X-UA-Compatible" content="ie=edge">
+        <script src="https://kit.fontawesome.com/33f9ac8727.js" crossorigin="anonymous"></script>
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta/css/bootstrap.min.css" integrity="sha384-/Y6pD6FV/Vv2HJnA6t+vslU6fwYXjCFtcEpHbNJ0lyAFsXTsjBbfaDjzALeQsN6M" crossorigin="anonymous">
+        <title>Khan Tour</title>
+      </head>
+      <body>
+          
+        <div class="container mt-4">
+            <h1 style="color:blue ;" class="display-4 text-center"><i style="color:blue ;" class="fa-solid fa-truck-fast"></i>KhanLogistics</h1>
+              <form id="book-form">
+                <div class="form-group">
+                  <label for="title">Buyurtma Beruvchi</label>
+                  <input type="text" id="title" class="form-control">
+                </div>
+                <div class="form-group">
+                  <label for="author">Manzil</label>
+                  <input type="text" id="author" class="form-control">
+                </div>
+                <div class="form-group">
+                  <label for="isbn">Tel.Raqam</label>
+                  <input type="text" id="isbn" class="form-control">
+                </div>
+                <div class="form-group">
+                    <label for="money">Stavka</label>
+                    <input type="text" id="money" class="form-control">
+                  </div>
+                <input type="submit" value="Qo'shish" class="btn btn-primary btn-block">
+              </form>
+              <table class="table table-striped mt-5">
+                <thead>
+                  <tr>
+                    <th>Buyurtma beruvchi</th>
+                    <th>Manzil</th>
+                    <th>Tel.raqam</th>
+                    <th>Stavka</th>
+                  </tr>
+                </thead>
+                <tbody id="book-list"></tbody>
+              </table>
+          </div>
+        
+            <script src="projeck1.js"></script>
+      </body>
+
+
+</html>
